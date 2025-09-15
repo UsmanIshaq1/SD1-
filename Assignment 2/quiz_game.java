@@ -15,7 +15,7 @@ public class App {
         System.out.println("Who programmed this game? (Hint: starts with U)");
         String answer1 = sc.nextLine();
         
-        if (answer1 == "Usman" || answer1 == "usman") {
+        if (answer1.equals("Usman") || answer1.equals("usman")) {
             // increases the score by 1 if the answer is correct
             score++;
             System.out.println("Your answer is correct!");
@@ -26,7 +26,7 @@ public class App {
         System.out.println("What is programmer's major?");
         String answer2 = sc.nextLine();
 
-        if (answer2 == "Computer Science" || answer2 == "computer science") {
+        if (answer2.equals( "Computer Science") || answer2.equals("computer science")) {
             score++;
             System.out.println("Your answer is correct!");
         } else {
@@ -36,7 +36,7 @@ public class App {
         System.out.println("What is programmer's second major?");
         String answer3 = sc.nextLine();
 
-        if (answer3 == "Cybersecurity" || answer3 == "cybersecurity") {
+        if (answer3.equals("Cybersecurity") || answer3.equals("cybersecurity")) {
             score++;
             System.out.println("Your answer is correct!");
         } else {
