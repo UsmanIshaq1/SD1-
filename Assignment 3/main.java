@@ -1,6 +1,9 @@
 // Usman Ishaq
 // Assignment 3
 
+// Usman Ishaq
+// Assignment 3
+
 import java.util.Scanner;
 
 public class Main {
@@ -35,14 +38,17 @@ public class Main {
         }
         System.out.println(fact);
 
-/*
         //P3: Ask the user for a number, and then add together every OTHER digit (starting from 1)
         System.out.println("Problem 3");
         System.out.println("Enter a number and I will tell you the sum of every other number: ");
         //No hint! what do you need to complete this task?
+        int n = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= n ; i = i+2){
+            sum = sum + i;
+        }
+        System.out.println(sum);
 
-        Tried to do the 33rd problem but couldn't figure it out. Will discuss this in Tuesday Lab.
-*/
         //P4: Why does this loop never stop!
         //what can you do to break out of the loop after it prints once?
         System.out.println("Problem 4");
@@ -74,4 +80,6 @@ public class Main {
     System.out.println(reverse);
     }
 }
+
+
 
